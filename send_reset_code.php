@@ -67,7 +67,7 @@ $mail->SMTPSecure = "tls";
 $mail->Port = 587;
 
 $mail->CharSet = "UTF-8";
-$mail->setFrom("maktabatisaghira4@gmail.com", "مكتبتي الصغيرة");
+$mail->setFrom("", "مكتبتي الصغيرة");
 $mail->addAddress($email);
 
 $mail->isHTML(true);
